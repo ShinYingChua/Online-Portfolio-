@@ -7,4 +7,4 @@ My personal webpage which showcases my experience, skills and capabilties.
 - Bootstrap
 
 # Demo
-https://shinyingchua.github.io/Online-Portfolio-/#contacts
+https://shinyingchua.github.io/Online-Portfolio-
