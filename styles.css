@@ -109,7 +109,7 @@ nav {
 
 /* home section */
 #home {
-    background-image: url(../assets/images/bg1.jpeg);
+    background-image: url('../assets/images/bg1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
