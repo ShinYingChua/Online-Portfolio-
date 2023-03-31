@@ -41,6 +41,7 @@ h2 {
     /* text-decoration-line: underline; */
     background-color: lightgrey;
     padding: 10px;
+    font-weight: bold;
 }
 
 figure {
