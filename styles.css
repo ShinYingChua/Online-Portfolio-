@@ -153,6 +153,10 @@ nav {
     margin: 2rem auto;
 }
 
+.content-about p {
+    margin-top: 2rem;
+}
+
 /* project section */
 #projects {
     max-width: 1000px;
