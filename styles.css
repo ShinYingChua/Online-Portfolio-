@@ -34,14 +34,13 @@ section {
     -webkit-scroll-snap-margin-top: 90px;
 }
 
-h2 {
-    font-size: 1.5rem;
+#bootstrap-overrides  {
+    font-size: 3rem;
     text-align: center;
     margin: 0;
     /* text-decoration-line: underline; */
     background-color: lightgrey;
     padding: 10px;
-    font-weight: bold;
 }
 
 figure {
@@ -90,14 +89,12 @@ nav {
 .navbar {
     display: flex;
     align-items: center;
-    /* align-content: flex-end; */
     list-style-type: none;
     justify-content: flex-end;
 }
 
 .navbar a {
     padding: 1rem 2rem;
-    /* font-size: 2rem; */
     text-align: right;
     font-weight: bold;
     color: black;
@@ -169,7 +166,7 @@ nav {
     justify-items: center;
     padding: 0;
     gap: 30px;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .project-tile {
@@ -273,7 +270,7 @@ figcaption {
     justify-content: center;
     /* height: 20vh;   */
     padding-bottom: 30px;
-    margin: 0px auto 0;
+    margin: 2rem auto 0;
     /* scroll-margin-top: 0; */
     /* -webkit-scroll-snap-margin-top: 0; */
 }
