@@ -162,6 +162,22 @@ nav {
     margin-top: 2rem;
 }
 
+.icon {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 50px;
+}
+
+.skills-container {
+    display: flex;
+    /* grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); */
+    /* justify-items: center; */
+    padding: 0;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
 /* project section */
 #projects {
     max-width: 1000px;
