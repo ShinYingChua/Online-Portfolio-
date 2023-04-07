@@ -162,20 +162,46 @@ nav {
     margin-top: 2rem;
 }
 
-.icon {
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    width: 50px;
-}
-
 .skills-container {
     display: flex;
-    /* grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); */
-    /* justify-items: center; */
     padding: 0;
     gap: 2rem;
     margin-top: 2rem;
+}
+.overlay {
+    position: relative;
+    top: -100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#5bc0de;
+}
+
+.text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.icon-container:hover .overlay {
+    opacity: 1;
+}
+
+.icon {
+    display: block;
+    /* flex-direction: row; */
+    height: 80px;
+    width: 80px;
 }
 
 /* project section */
